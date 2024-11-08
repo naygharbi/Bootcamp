@@ -4,6 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon-List</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        class="search"
+        placeholder="Filtrar Pokemóns por nombre"
+      />
+      <div class="grid">
+        <div class="pok-card">
+          <div class="pok-top">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+              alt=""
+            />
+            <div class="card-ID">ID/1</div>
+          </div>
+          <div class="card-bottom">
+            <div class="pok-info">
+              <h2>Bulbasaur</h2>
+              <ul class="type">
+                <li>poison</li>
+                <li>grass</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="pok-card">
+          <div class="pok-top">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+              alt=""
+            />
+            <div class="card-ID">ID/2</div>
+          </div>
+          <div class="card-bottom">
+            <div class="pok-info">
+              <h2>Ivysaur</h2>
+              <ul class="type">
+                <li>poison</li>
+                <li>grass</li>
+              </ul>
+              <div class="card_evolution">
+                Evolutiona de:
+                <span>bulbasaur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pok-card">
+          <div class="pok-top">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+              alt=""
+            />
+            <div class="card-ID">ID/3</div>
+          </div>
+          <div class="card-bottom">
+            <div class="pok-info">
+              <h2>Venusaur</h2>
+              <ul class="type">
+                <li>poison</li>
+                <li>grass</li>
+              </ul>
+              <div class="card_evolution">
+                Evolutiona de:
+                <span>ivysaur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
