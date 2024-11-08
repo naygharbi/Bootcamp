@@ -26,6 +26,7 @@ body {
   gap: 20px;
 }
 .pok-card {
+  background-color: rgb(255, 255, 255);
   /* height: 250px;
   width: 210px; */
   border: 1px black solid;
@@ -35,7 +36,6 @@ body {
 .pok-top {
   display: flex;
   justify-content: center;
-  height: 50%;
   border: 1px;
   background-color: rgb(176, 182, 187);
   position: relative;
@@ -49,18 +49,16 @@ body {
   padding: 3px 8px 3px 10px;
 }
 .card-bottom {
+  margin-left: 10px;
   h2 {
     margin: 0;
     padding-top: 5px;
   }
-  height: 50%;
-  background-color: rgb(255, 255, 255);
-  position: relative;
 }
-
 .type {
   margin: 0;
-  padding-left: 30px;
+  margin-bottom: 10px;
+  padding-left: 0px;
   list-style: none;
   li {
     border: 1px black solid;
@@ -73,7 +71,7 @@ body {
 }
 .card_evolution {
   border-left: 3px solid rgb(90, 21, 21);
-  padding-left: 4px;
+  padding-left: 5px;
   color: brown;
   span {
     color: black;
