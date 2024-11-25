@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Básica</title>
+    <script src="script.js"></script>
+    <style>
+      .result {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" name="inputext1" id="textInput1" />
+    <input type="text" name="inputext2" id="textInput2" />
+    <input type="button" onclick="calcular('sumar')" value="Sumar" />
+    <input type="button" onclick="calcular('restar')" value="Restar" />
+    <input
+      type="button"
+      onclick="calcular('multiplicar')"
+      value="Multiplicar"
+    />
+    <input type="button" onclick="calcular('dividir')" value="Dividir" />
+    <div class="result">
+      <p id="result"></p>
+    </div>
+    <p>
+      Crea una calculadora simple que pueda sumar, restar, multiplicar y dividir
+      dos números ingresados por el usuario.
+    </p>
+  </body>
+</html>
