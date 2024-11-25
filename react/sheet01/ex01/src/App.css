@@ -1,0 +1,17 @@
+.card {
+  color: black;
+  background-color: rgb(228, 213, 213);
+  display: flex;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  border: 1px black solid;
+}
+
+.grid {
+  display: flex;
+}
+.info {
+  border: 1px black solid;
+}
