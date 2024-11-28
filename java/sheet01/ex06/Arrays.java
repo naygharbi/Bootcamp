@@ -8,4 +8,4 @@ public class Arrays {
 	}
 }
 
-// for (numbers : array[])
+// for (int numbers : array)
